@@ -1,0 +1,28 @@
+.message-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+
+.message-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+
+.message-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1f0f0;
+    margin: 10px;
+    max-width: 60%;
+    color: black;
+}

@@ -1,0 +1,39 @@
+.chatbot-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.chatbot-messages{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 95%;
+    width: 100%;
+}
+
+.chatbot-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+}
+
+.chatbot-input-text{
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.chatbot-input-button{
+    width: 10%;
+    height: 100%;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+
+}

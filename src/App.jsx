@@ -1,25 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import ChatBot from './components/ChatBot';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div className='app-container'>
-        <h1 className='app-title'>Chat</h1>
-        <div className='app-chat'></div>
-        <div className='app-input'>
-          <input
-            type='text'
-            placeholder='Type a message...'
-            className='app-input-field'>
-          </input>
-          <button className='app-input-button'>Send</button>
-        </div>
-      </div>
+      <header className="App-header">
+        <h1>Chatbot de Agricultura y Exportación</h1>
+      </header>
+      <main className='App-main'>
+        <ChatBot />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
